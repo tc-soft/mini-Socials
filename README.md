@@ -1,6 +1,6 @@
 # mini-Socials
 
-<button name="button" onclick="https://codesandbox.io/s/github/tc-soft/mini-Socials">Run codesandbox</button>
+[Run codesandbox](https://codesandbox.io/s/github/tc-soft/mini-Socials)
 
 This is an example of using a footer in your WEB application with social icons.
 All icons are as vector.
