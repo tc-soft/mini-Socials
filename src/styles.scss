@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
+
+.App {
+  text-align: center;
+}
+
+footer {
+  margin: 0 auto;
+  max-width: 1032px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.social {
+  margin-top: 1rem;
+  background-color: #fff;
+
+  ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-top-style: solid;
+      border-top-color: #ccc;
+      margin-bottom: 0;
+  }
+  li {
+      display: inline-block;
+      margin: 1.25rem 0.75rem 0rem 0;
+      font-size: 1.25rem;
+  }
+}
+
+.legal {
+  background-color: #eee;
+  font-size: 0.7rem;
+
+  ul {
+      display: flex;
+      width: 100%;
+      list-style: none;
+      padding: 0;
+  }
+  li {
+      margin: 0.5rem 1rem 0.5rem 1rem;
+      white-space: nowrap;
+  }
+  li:nth-last-child(2) {
+      flex: 1;
+  }
+  img {
+      height: 20px;
+      margin: 0.5rem 1rem 0rem 1rem;
+  }
+}
+
+.iconLinkedinFill {
+  .iconLinkedinFill1 {
+      fill:white;
+  }
+  
+  .iconLinkedinFill2 {
+      fill:black;
+  }
+  
+  &:hover {
+      .iconLinkedinFill2 {
+          fill: #3663AB;
+      }
+  }
+}
+
+.iconGitHUBFill {
+  iconGitHUBFill1 {
+      fill: #2F2C2A;
+  }
+}
+
+.iconYoutubeFill {
+
+  .iconYoutubeFill1 {
+      fill:black;
+      fill-rule:nonzero;
+  }
+  
+  .iconYoutubeFill2 {
+      fill:white;
+      fill-rule:nonzero;
+  }
+
+  &:hover {
+      .iconYoutubeFill1 {
+          fill:red;
+          fill-rule:nonzero;
+      }
+  }
+}
+
+.iconFacebookFill {
+  
+  .iconFacebookFill1 {
+      fill: black;
+      fill-rule:nonzero;
+  }
+  
+  .iconFacebookFill2 {
+      fill:white;
+      fill-rule:nonzero;
+  }
+
+  &:hover {
+      .iconFacebookFill1 {
+          fill:#1877F2;
+          fill-rule:nonzero;
+      }
+  }
+}
+
+.iconMailFill {
+  .iconMailFill1 {
+      fill:white;
+  }
+  
+  .iconMailFill2 {
+      fill:black;
+  }
+
+  &:hover {
+
+      .iconMailFill2 {
+          // fill : #E6AF2E;
+          fill : #ffb300;
+      }
+  }
+}
