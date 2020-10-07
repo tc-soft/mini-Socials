@@ -19,7 +19,7 @@ a:hover {
 }
 
 .social {
-  margin-top: 1rem;
+  // margin-top: 1rem;
   background-color: #fff;
 
   ul {
@@ -28,12 +28,14 @@ a:hover {
       align-items: center;
       border-top-style: solid;
       border-top-color: #ccc;
+      padding: 1rem 0rem 0rem 0rem;
       margin-bottom: 0;
   }
+
   li {
       display: inline-block;
-      margin: 1.25rem 0.75rem 0rem 0;
-      font-size: 1.25rem;
+      margin: 0rem 0.35rem 0rem 0.35rem;
+      padding: 0;
   }
 }
 
@@ -132,9 +134,7 @@ a:hover {
   }
 
   &:hover {
-
       .iconMailFill2 {
-          // fill : #E6AF2E;
           fill : #ffb300;
       }
   }
